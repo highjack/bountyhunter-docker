@@ -1,3 +1,2 @@
-docker_name="bountyhunter"
-docker build . -t "$docker_name"
-docker run -h "$docker_name" -ti "$docker_name"
+docker build . -t bountyhunter
+docker run -h bountyhunter -ti bountyhunter
